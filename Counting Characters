@@ -1,0 +1,11 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  Copyright 2021 Abigayle_Gibbons
+ */
+
+ class CountingCharacters{
+     public static void main(String[] args){
+         var line = System.console().readLine("What is the input string? ");
+         System.out.printf("%s has %d characters.%n", line, line.length());
+     }
+ }
